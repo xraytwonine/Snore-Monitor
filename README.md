@@ -41,8 +41,8 @@ Snore Monitor is an experimental sound-analysis tool and is not a medical device
 
 The portable Windows app saves all recordings here:
 C:\Users\<your-Windows-name>\AppData\Local\SnoreMonitor\logs
-On your computer, that should be:
-C:\Users\raymo\AppData\Local\SnoreMonitor\logs
+
+
 Inside:
 - snore_log_...txt — session details and detected snoring periods
 - snore_log_..._levels.csv — full-session loudness history
