@@ -29,3 +29,13 @@ Features include:
 - Fully local processing with no cloud services or accounts
 
 Snore Monitor is an experimental sound-analysis tool and is not a medical device or a substitute for professional sleep assessment.
+
+The portable Windows app saves all recordings here:
+C:\Users\<your-Windows-name>\AppData\Local\SnoreMonitor\logs
+On your computer, that should be:
+C:\Users\raymo\AppData\Local\SnoreMonitor\logs
+Inside:
+- snore_log_...txt — session details and detected snoring periods
+- snore_log_..._levels.csv — full-session loudness history
+- audio\snore_log_... — lossless FLAC audio chunks for that session
+The easiest way to reach it is the Open logs button in the Record tab.
